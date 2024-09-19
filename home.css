@@ -2,28 +2,26 @@ body {
     font: 'Roboto' sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9fafc;
-    color: #333;
+    background-color: #f7faff;
+    color: #2c2c2c;
 }
 
 .Dashboard {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(120deg, #73829f, #d5e8ff);
+    background: linear-gradient(120deg, #e0f7fa, #b3e5fc);
 }
-
-/* TOP BAR : HEADING  USER_LOGIN LANGUAGE */
 
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7794ae;
-    color: rgb(47, 50, 60);
+    background-color: #add4ea;
+    color: #423956;
     padding: 15px 30px;
-    box-shadow: 0 4pc 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid #5f6264;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #b0bec5;
 }
 
 .profile {
@@ -35,14 +33,40 @@ body {
     border-radius: 50%;
     width: 40px;
     margin-right: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #eceff1;
 }
 
-#lang-select{
+#lang-select {
     margin-left: 20px;
     padding: 5px;
-    background-color: #a3abb1;
+    background-color: #3f4c52;
     border: none;
     color: white;
     border-radius: 4px;
+}
+
+.dashboard-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #e1f5fe;
+}
+
+.dashboard-nav ul li {
+    flex: 1;
+}
+
+.dashboard-nav ul li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #0277bd;
+    background-color: #e1f5fe;
+    transition: background-color 0.3s;
+}
+
+.dashboard-nav ul li a:hover {
+    background-color: #81d4fa;
 }
