@@ -70,3 +70,57 @@ body {
 .dashboard-nav ul li a:hover {
     background-color: #81d4fa;
 }
+
+.main-content {
+
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.my-dashboard,
+.progress,
+.task,
+.chatbot {
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.my-dashboard:hover,
+.progress:hover,
+.task:hover,
+.chatbot:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.sec-image {
+    width: 100%;
+    height: 11rem;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border: 4px solid #e1f5fe;
+    border-radius: 4%;
+    transition: opacity 0.3s;
+}
+
+.sec-button {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    margin-top: 1.5%;
+    background-color: #809fac;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.sec-button:hover {
+    transform: translateY(-2px);
+    background-color: #ddd5d5;
+}
+
