@@ -125,7 +125,7 @@ body {
 }
 
 .explore {
-    background: linear-gradient(120deg, #91c9c0,  #8d9596);
+    background: linear-gradient(120deg, #91c9c0, #8d9596);
     color: rgb(117, 100, 112);
     padding: 0%;
     padding-top: 3%;
@@ -142,13 +142,14 @@ body {
     color: #26242c;
     margin-left: 5%;
 }
+
 .exp-image {
- display: flex;
- align-items: left;
- height: 500px;
+    display: flex;
+    align-items: left;
+    height: 500px;
 }
 
-.arrow  {
+.arrow {
     width: 50%;
     aspect-ratio: 3/2;
     object-fit: contain;
@@ -156,23 +157,32 @@ body {
     transition: transform 0.2s, box-shadow 0.2s;
     border-radius: 16%;
 }
+
 .arrow:hover {
     transform: translateX(10px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .Unwind {
-display: flex;
-align-items: left;
+    display: flex;
+    align-items: left;
 }
 
-.exp1-image{
+.exp1-image {
     display: flex;
     align-items: right;
     height: 60rem;
-   
+
 }
 
 .yoga_head {
     margin-left: 5%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.6em;
+    background: linear-gradient(120deg, #a4b8b9, #6d7c82);
+    padding: 1%;
+    color: #0a2d1d;
 }
