@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(120deg, #e0f7fa, #b3e5fc);
+    background: linear-gradient(120deg, #82ccee, #97a2a3);
 }
 
 .top-bar {
@@ -125,8 +125,8 @@ body {
 }
 
 .explore {
-    background: linear-gradient(90deg, #44656c, #82ccee);
-    color: rgb(243, 225, 225);
+    background: linear-gradient(120deg, #91c9c0,  #8d9596);
+    color: rgb(117, 100, 112);
     padding: 0%;
     padding-top: 3%;
 }
@@ -140,6 +140,7 @@ body {
 
 .text {
     color: #26242c;
+    margin-left: 5%;
 }
 .exp-image {
  display: flex;
@@ -151,13 +152,27 @@ body {
     width: 50%;
     aspect-ratio: 3/2;
     object-fit: contain;
-    transition: transform 0.1s;
+    margin-left: 5%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 16%;
 }
 .arrow:hover {
     transform: translateX(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .Unwind {
 display: flex;
-align-items: right;
+align-items: left;
+}
+
+.exp1-image{
+    display: flex;
+    align-items: right;
+    height: 60rem;
+   
+}
+
+.yoga_head {
+    margin-left: 5%;
 }
