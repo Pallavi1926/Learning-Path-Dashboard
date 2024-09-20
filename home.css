@@ -50,7 +50,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    background-color: #e1f5fe;
+    background-color: #586a72;
 }
 
 .dashboard-nav ul li {
@@ -62,8 +62,8 @@ body {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    color: #0277bd;
-    background-color: #e1f5fe;
+    color: #ffffff;
+    background-color: #6a808a;
     transition: background-color 0.3s;
 }
 
@@ -124,3 +124,40 @@ body {
     background-color: #ddd5d5;
 }
 
+.explore {
+    background: linear-gradient(90deg, #44656c, #82ccee);
+    color: rgb(243, 225, 225);
+    padding: 0%;
+    padding-top: 3%;
+}
+
+.main-library {
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    line-height: 1.3em;
+}
+
+.text {
+    color: #26242c;
+}
+.exp-image {
+ display: flex;
+ align-items: left;
+ height: 500px;
+}
+
+.arrow  {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    transition: transform 0.1s;
+}
+.arrow:hover {
+    transform: translateX(10px);
+}
+
+.Unwind {
+display: flex;
+align-items: right;
+}
